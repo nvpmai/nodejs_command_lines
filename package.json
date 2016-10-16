@@ -7,8 +7,7 @@
     "dev": "run-p watch:test watch:lint",
     "lint": "eslint ./",
     "watch:test": "nodemon --exec \"npm test || true\"",
-    "watch:lint": "nodemon --exec \"npm run lint || true\"",
-    "cli:echo": "babel-node echo.js"
+    "watch:lint": "nodemon --exec \"npm run lint || true\""
   },
   "repository": {
     "type": "git",
@@ -36,5 +35,15 @@
     "eslint": "^3.7.0",
     "eslint-config-noderiety": "^1.1.1",
     "mocha": "^3.0.2"
+  }, 
+  "bin": {
+    "cli-echo": "./echo.js",
+    "cli-cat": "./cat.js",
+    "cli-ls": "./ls.js",
+    "cli-rm": "./rm.js",
+    "cli-touch": "./touch.js",
+    "cli-mkdir": "./mkdir.js",
+    "cli-grep": "./grep.js",
+    "cli-ln": "./ln.js"
   }
 }

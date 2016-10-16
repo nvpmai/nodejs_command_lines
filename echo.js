@@ -1,7 +1,6 @@
 #!/usr/bin/env babel-node
 
 require('./helper')
-let fs = require('fs').promise
 let args = require('yargs').argv
 
 async function echo() {
