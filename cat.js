@@ -8,7 +8,9 @@ let args = require('yargs').argv
 async function cat() {
   let fileName = args._[0] || "README.md"
   let filePath = path.join(__dirname, fileName)
-  process.stdout.write(fs.readFileSync(filePath))
+  if (fs.existsSync(filePath)) {
+    process.stdout.write(fs.readFileSync(filePath))
+  }
 }
 
 cat()

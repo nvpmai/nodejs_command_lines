@@ -9,7 +9,7 @@ Time spent: 15 hours
 ### Required
 
 - [x] Completed Requireds marked with `[x]`
-- [ ] Walkthrough Gif embedded in README
+- [x] Walkthrough Gif embedded in README
 - [x] README `Time spent:` includes the number of hours spent on the assignment
 - [x] `echo.js` prints the first argument to stdout
 - [x] `cat.js` prints the contents of the first argument to stdout
@@ -25,6 +25,17 @@ Time spent: 15 hours
 - [x] `grep.js` supports a regex as the second arguments
 
 ## Walkthrough Gif:
+- ./echo.js 'hi there'
+- ./cat.js touch.js
+- ./touch.js hi.txt
+- ./ls.js ./
+- .ls.js ./ -R
 
-`<Add your Walkthrough Gif here (by updating the image URL)>`
-![Video Walkthrough](...)
+![echo_cat_touch_ls]()
+
+- ./mkdir.js f1/f2/f3
+- ./rm.js hi.txt
+- ./ln.js echo.js echo_clone.js
+- ./grep.js console \.js
+
+![echo_cat_touch_ls]()
