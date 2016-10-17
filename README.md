@@ -26,18 +26,18 @@ Time spent: 15 hours
 
 ## Walkthrough Gif:
 ```bash
-- ./echo.js 'hi there'
-- ./cat.js touch.js
-- ./touch.js hi.txt
-- ./ls.js ./
-- .ls.js ./ -R
+./echo.js 'hi there'
+./cat.js touch.js
+./touch.js hi.txt
+./ls.js ./
+.ls.js ./ -R
 ```
 ![echo_cat_touch_ls](https://github.com/nvpmai95/nodejs_command_lines/blob/master/gifs/echo_cat_touch_ls.gif)
 
 ```bash
-- ./mkdir.js f1/f2/f3
-- ./rm.js hi.txt
-- ./ln.js echo.js echo_clone.js
-- ./grep.js console \.js
+./mkdir.js f1/f2/f3
+./rm.js hi.txt
+./ln.js echo.js echo_clone.js
+./grep.js console \.js
 ```
 ![echo_cat_touch_ls](https://github.com/nvpmai95/nodejs_command_lines/blob/master/gifs/mkdir_rm_ln_grep.gif)
