@@ -26,7 +26,8 @@
     "nodemon": "^1.10.2",
     "npm-run-all": "^3.1.0",
     "songbird": "^1.0.4",
-    "trycatch": "^1.5.21"
+    "trycatch": "^1.5.21",
+    "yargs": "^6.2.0"
   },
   "devDependencies": {
     "rimraf": "^2.5.4",
@@ -35,7 +36,7 @@
     "eslint": "^3.7.0",
     "eslint-config-noderiety": "^1.1.1",
     "mocha": "^3.0.2"
-  }, 
+  },
   "bin": {
     "cli-echo": "./echo.js",
     "cli-cat": "./cat.js",

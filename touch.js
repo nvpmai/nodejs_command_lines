@@ -1,11 +1,10 @@
 #!/usr/bin/env babel-node
 
 require('./helper')
-let fs = require('fs')
-let args = require('yargs').argv
+const fs = require('fs')
 
 async function touch() {
-  if (args._[0]) {
+  if (process.args[2]) {
     fs.openSync(args._[0], 'w')
   }
 }

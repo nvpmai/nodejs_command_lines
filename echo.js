@@ -1,10 +1,13 @@
 #!/usr/bin/env babel-node
 
 require('./helper')
-let args = require('yargs').argv
 
 async function echo() {
-  process.stdout.write(args._[0] + "\n")
+  if (process.argv[2]) {
+    console.log(process.argv.splice(2).join(' '))
+  } else {
+    console.log('No input')
+  }
 }
 
 echo()
